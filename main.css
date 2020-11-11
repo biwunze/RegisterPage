@@ -6,6 +6,7 @@ nav {
     width: 100vw;
     height: 50px;
     padding: 5px;
+    border-bottom: 2px solid lightslategray;
 }
 
 nav ul li {
@@ -23,8 +24,8 @@ div {
     width: 200px;
     border: 2px solid blue;
     padding: 20px;
-    margin: 20px;
-    
+    margin: auto;
+    margin-top: 100px;
 }
 
 input {
