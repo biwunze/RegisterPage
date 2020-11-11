@@ -1,0 +1,32 @@
+nav {
+    background-color: lightblue;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 50px;
+    padding: 5px;
+}
+
+nav ul li {
+    display: inline-block;
+    color: blue;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+nav ul {
+    text-align: right;
+}
+
+div {
+    width: 200px;
+    border: 2px solid blue;
+    padding: 20px;
+    margin: 20px;
+    
+}
+
+input {
+    margin: 5%;
+}
