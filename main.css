@@ -1,5 +1,8 @@
+body{
+    background-color: rgb(0, 82, 205);
+}
 nav {
-    background-color: lightblue;
+    background-color: white;
     position: fixed;
     top: 0px;
     left: 0px;
@@ -11,23 +14,65 @@ nav {
 
 nav ul li {
     display: inline-block;
-    color: blue;
-    font-weight: bold;
-    margin-right: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    
 }
 
 nav ul {
     text-align: right;
+    margin: 10px 18px 5px 31px;
+}
+
+nav ul button {
+    margin: 2px 2px 2px 2px;
+    border-radius: 7%;
+}
+
+button {
+    background-color: rgb(2, 67, 163);
+    color: white;
+}
+
+h2 {
+    padding-left: 11px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 div {
-    width: 200px;
-    border: 2px solid blue;
+    width: 277px;
+    border: 2px solid lightslategray;
     padding: 20px;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 125px;
+    background-color: white;
+    height: 397px;
+    border-radius: 2%;
 }
 
 input {
     margin: 5%;
+    width: 80%;
+    height: 20px;
+}
+
+div button {
+    margin: 5%;
+    width: 83%;
+    height: 25px;
+} 
+
+.smpics ul li {
+    display: inline-block;
+    size: 10px;
+}
+.smpics {
+    padding-inline-start: 20px;
+}
+
+img {
+    border-radius: 50%;
+    padding: 5px;
 }
